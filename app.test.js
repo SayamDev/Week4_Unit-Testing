@@ -57,3 +57,13 @@ describe("Num4 Challenge", () => {
         expect(funcs.obj("rio")).toEqual({catName: "rio", vaccinated: false})
     })
 })
+
+
+
+//num5
+describe("Num5 Challenge", () => {
+    test("return items in the array that have more than 6 or more characters", () => {
+        const sixArr = ["football","tennis","cricket", "box"]
+        expect(funcs.sports(sixArr)).toEqual(["football", "tennis", "cricket"])
+    })
+})

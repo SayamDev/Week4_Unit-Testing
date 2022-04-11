@@ -41,15 +41,27 @@ let obj =  (cat) => {
     return obj2Properties
 }
 
-console.log(obj("rio"))
+//console.log(obj("rio"))
+
+
+
+
+//5 - function that will return items in an array with 6 or more characters
+
+function sports(strings){
+    return strings.filter((arr) => arr.length >= 6 );
+  }
+
+  //console.log(sports(["football","tennis","cricket", "box"]))
 
 
 module.exports = {
-    //add,
-    //myArray,
+
     notReturned,
     truthy,
     falsy,
     obj,
+    sports
+    
 }
 
