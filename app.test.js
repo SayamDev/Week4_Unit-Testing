@@ -34,6 +34,13 @@ describe("Num1 Challenge", () => {
     })
 })
 
+//refactor 1 
+describe("Num1 refactor Challenge", () => {
+    test("returned is not null", () => {
+        expect(funcs.sushi("sayam")).not.toBeNull()
+    })
+})
+
 
 //num 2
 describe("Num2 Challenge", () => {

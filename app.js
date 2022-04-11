@@ -13,6 +13,14 @@ let myArray = ["Dan", "Stuart", "Ben"]
 
 const notReturned = (name) => console.log(name)
 
+
+//refactor1
+
+const sushi = (chu) => {
+    return chu
+}
+
+//console.log(sushi())
 //--------------------------------------------
 
 
@@ -58,6 +66,7 @@ function sports(strings){
 module.exports = {
 
     notReturned,
+    sushi,
     truthy,
     falsy,
     obj,
