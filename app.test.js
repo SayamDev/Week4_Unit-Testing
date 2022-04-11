@@ -27,9 +27,17 @@ const { TestWatcher } = require('jest')
 let funcs = require('./app')
 
 
-//challenge 1
+//num 1
 describe("Num1 Challenge", () => {
     test("returned is not null", () => {
         expect(funcs.notReturned("sayam")).not.toBeNull()
+    })
+})
+
+
+//num 2
+describe("Num2 Challenge", () => {
+    test("value = truthy", () => {
+        expect(funcs.truthy(1)).toBeTruthy()
     })
 })

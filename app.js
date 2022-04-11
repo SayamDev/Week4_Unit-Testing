@@ -18,7 +18,8 @@ const notReturned = (name) => console.log(name)
 
 //2 - a value that is truthy
 
-
+const truthy = (truth) => true
+//console.log(truthy())
 
 
 
@@ -26,5 +27,6 @@ module.exports = {
     //add,
     //myArray,
     notReturned,
+    truthy
 }
 
