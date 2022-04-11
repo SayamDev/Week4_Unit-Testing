@@ -23,10 +23,19 @@ const truthy = (truth) => true
 
 
 
+//3 value that is not falsy
+
+const falsy = (lie) => false
+
+//console.log(falsy())
+
+
+
 module.exports = {
     //add,
     //myArray,
     notReturned,
-    truthy
+    truthy,
+    falsy
 }
 

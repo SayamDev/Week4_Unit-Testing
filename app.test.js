@@ -41,3 +41,11 @@ describe("Num2 Challenge", () => {
         expect(funcs.truthy(1)).toBeTruthy()
     })
 })
+
+
+//num 3
+describe("Num3 Challenge", () => {
+    test("value = falsey", () => {
+        expect(funcs.falsy(0)).toBeFalsy()
+    })
+})
