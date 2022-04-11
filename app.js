@@ -30,12 +30,26 @@ const falsy = (lie) => false
 //console.log(falsy())
 
 
+//4 - function that creates an object with 2 properties, test to make sure that the object properties are equal to ur test function
+
+let obj =  (cat) => {
+    const obj2Properties = {
+        catName: cat,
+        vaccinated: false
+    }
+
+    return obj2Properties
+}
+
+console.log(obj("rio"))
+
 
 module.exports = {
     //add,
     //myArray,
     notReturned,
     truthy,
-    falsy
+    falsy,
+    obj,
 }
 

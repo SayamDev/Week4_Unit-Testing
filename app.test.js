@@ -49,3 +49,11 @@ describe("Num3 Challenge", () => {
         expect(funcs.falsy(0)).toBeFalsy()
     })
 })
+
+
+//num4
+describe("Num4 Challenge", () => {
+    test("check if the object contains 2 properties", () => {
+        expect(funcs.obj("rio")).toEqual({catName: "rio", vaccinated: false})
+    })
+})
